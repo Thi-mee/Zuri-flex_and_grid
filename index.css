@@ -9,13 +9,17 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Oswald', sans-serif;
-  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
 }
 main{
   width: 700px;
   height: 65%;
   display: flex;
+  border-radius: 1em;
+  overflow: hidden;
 }
 .column{
   flex: 1 1 100%;
@@ -48,23 +52,21 @@ main{
 }
 .icon{
   font-size: 1.7rem;
-  position: absolute;
-  left: 20px;
   color: rgba(255, 255, 255, .4);
 }
 h2{
   font-size: 2rem;
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
   margin: 0;
 }
-p{
-  font-family: 'Poppins', sans-serif;
-  font-size: .7rem;
-}
+
 .ctab{
   margin-top: 1em;
   width: 70%;
   padding: .75em;
   border-radius: 2em;
+  color: hsl(0, 0%, 95%);
   border: none;
 }
 .first{
